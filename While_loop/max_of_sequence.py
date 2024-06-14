@@ -9,3 +9,4 @@ while element != 0:
         max = element
     element = int(input())
 print(max)    
+
