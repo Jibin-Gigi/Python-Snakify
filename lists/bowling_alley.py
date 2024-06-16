@@ -7,3 +7,13 @@
     Print a sequence of N characters, where "I" represents a pin left standing and "." represents a pin knocked down.
  '''
 
+n , k = [int(i) for i in input().split()]
+sequence = ['I'] * n
+for i in range(k):
+    left , right = [int(i) for i in input().split()]
+    
+    for j in range(left , right+1):
+        sequence[j-1]='.'
+print(''.join(sequence))        
+        
+    
