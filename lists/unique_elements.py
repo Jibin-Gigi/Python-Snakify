@@ -5,3 +5,17 @@ list1 = [int(i) for i in input().split()]
 for item in list1:
     if list1.count(item) == 1:
         print(item)
+
+
+'''OR
+
+a = [int(s) for s in input().split()]
+for i in range(len(a)):
+    for j in range(len(a)):
+        if i != j and a[i] == a[j]:
+            break
+    else:
+        print(a[i], end=' ')
+
+'''
+        
