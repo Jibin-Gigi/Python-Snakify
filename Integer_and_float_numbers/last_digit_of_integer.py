@@ -1,6 +1,4 @@
-'''
-Given an integer number, print its last digit.
-'''
+''' Given an integer number, print its last digit. '''
 
 #Read number
 a = int(input())
