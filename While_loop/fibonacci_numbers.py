@@ -1,8 +1,7 @@
-'''
-The Fibonacci sequence is defined as follows:
-    ϕ0=0, ϕ1=1, ϕn=ϕn-1 + ϕn-2.
-Given a non-negative integer n, print the nth Fibonacci number ϕn
-'''
+''' The Fibonacci sequence is defined as follows:
+        ϕ0=0, ϕ1=1, ϕn=ϕn-1 + ϕn-2.
+    Given a non-negative integer n, print the nth Fibonacci number ϕn '''
+
 
 n = int(input())
 result = 0
