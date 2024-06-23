@@ -1,7 +1,7 @@
-'''
-Given two integers A and B. Print all numbers from A to B inclusively, 
-in ascending order, if A < B, or in descending order, if A ≥ B.
-'''
+''' Given two integers A and B. Print all numbers from A to B inclusively, 
+in ascending order, if A < B, or in descending order, if A ≥ B. '''
+
+
 
 a = int(input())
 b = int(input())
